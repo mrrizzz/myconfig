@@ -45,3 +45,11 @@ git clone https://github.com/mrrizzz/mynovim.git $env:LOCALAPPDATA\nvim
 ```sh
 nvim
 ```
+
+## Youtube Channel Recommendation For Tutorial
+- Start From Zero (learn the basic keybinding and try to understand the built in config): 
+https://youtu.be/N93cTbtLCIM?si=nkpA4nKCo6T3q4NT
+- Here for more, if you are interested :
+https://youtube.com/playlist?list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07&si=u1wr5eIKf-hY7pZy 
+
+- ENJOY AND KEEP EXPLORING!
