@@ -25,22 +25,6 @@ vim.api.nvim_set_keymap("n", "<C-j>", "<Cmd>Telescope<CR>", { noremap = true, si
 vim.api.nvim_set_keymap("n", "<C-q>", "<Cmd>Telescope quickfix<CR>", { noremap = true, silent = true }) -- Replace with your actual command
 vim.api.nvim_set_keymap("n", "<C-t>", "<Cmd>TroubleToggle<CR>", { noremap = true, silent = true }) -- Open Trouble with <C-t>
 
--- Set Telescope actions
--- require("telescope").setup({
---   defaults = {
---     mappings = {
---       i = {
---         ["<C-k>"] = actions.move_selection_previous,
---         ["<C-j>"] = actions.move_selection_next,
---         ["<C-q>"] = function(prompt_bufnr)
---           actions.send_selected_to_qflist(prompt_bufnr)
---           trouble_telescope.open(prompt_bufnr)
---         end,
---       },
---     },
---   },
--- })
-
 -- Set Trouble actions
 trouble.setup({
   -- your trouble settings here
