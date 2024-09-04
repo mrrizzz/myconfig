@@ -1,6 +1,7 @@
 return {
-  "zbirenbaum/copilot-cmp",
+  "github/copilot.vim",
+  event = "BufReadPost",
   config = function()
-    require("copilot_cmp").setup()
+    vim.cmd([[Copilot auth]])
   end,
 }

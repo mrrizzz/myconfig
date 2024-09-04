@@ -137,6 +137,11 @@ return {
           capabilities = capabilities,
         })
       end,
+      ["prismals"] = function()
+        lspconfig["prismals"].setup({
+          capabilities = capabilities,
+        })
+      end,
     })
   end,
 }
